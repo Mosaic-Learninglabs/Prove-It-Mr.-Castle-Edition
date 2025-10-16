@@ -1,5 +1,5 @@
 export const topics = [
-  { name: "French Alliance", emoji: "🇫🇷", type: "American Revolution" },
+  { name: "French Alliance", emoji: "⚜️", type: "American Revolution" },
   { name: "Geography & Terrain", emoji: "🗺️", type: "American Revolution" },
   { name: "Leadership", emoji: "⭐", type: "American Revolution" },
   { name: "Guerrilla Tactics", emoji: "⚔️", type: "American Revolution" },

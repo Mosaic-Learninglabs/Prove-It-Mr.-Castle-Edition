@@ -8,6 +8,12 @@
   font-weight: 400;
 }
 
+/* Ensure proper emoji rendering */
+.emoji {
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   padding: 0;

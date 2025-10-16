@@ -11,7 +11,7 @@ export const StartScreen = ({ selectedTopic, setSelectedTopic, onStart }) => {
             <div className="text-7xl mb-3">🔍</div>
             <h1 className="text-6xl font-bold text-gray-800 mb-2">Prove It!</h1>
             <p className="text-xl text-gray-600">American Revolution Evidence Game</p>
-            <p className="text-sm text-gray-500 mt-1">Mr. Castle's 7th Grade History • Terronez Middle School</p>
+            <p className="text-sm text-gray-500 mt-1">Mr. Castle's 8th Grade History • Terronez Middle School</p>
           </div>
 
           <div className="mb-6">
@@ -30,7 +30,7 @@ export const StartScreen = ({ selectedTopic, setSelectedTopic, onStart }) => {
                   }`}
                   aria-pressed={selectedTopic.name === topic.name}
                 >
-                  <div className="text-3xl mb-1">{topic.emoji}</div>
+                  <div className="text-3xl mb-1 emoji">{topic.emoji}</div>
                   <div className="font-semibold text-gray-800 text-sm">{topic.name}</div>
                   <div className="text-xs text-gray-500">{topic.type}</div>
                 </button>
